@@ -10,12 +10,12 @@ n = userValue
 steps = 0
 
 # loop until we hit 1
-while n != 1:
+while 1 != n:
 
 
   if 0 == n % 2:
     # even
-    n = n /2
+    n = n / 2
   else:
     # odd
     n = n * 3 + 1
@@ -32,4 +32,5 @@ while n != 1:
   # pause for a random amount of time less than 1 second
   time.sleep(random.random());
 
+# give the user the final result
 print(f'Done! We reached 1 from {userValue} in {steps} steps!')
