@@ -2,6 +2,8 @@
 import time
 import random
 
+# https://github.com/will4614/python_collatz
+
 # ask the user for an integer
 userValue = int(input("Enter an integer: "))
 
